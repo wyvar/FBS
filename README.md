@@ -5,6 +5,10 @@ Facbook changed API to graph api +incoming values are hidden or have inconsistan
 
 That's why it uses old mobile version of the site, and utilize category "Active friends". Why not the right bar of the site? The problem is this "activebar" is limited to 20-25 people active + group. Even more - updates are irregular and might be off by 1-2 mins. 
 
+# Requirements
+1. Python 3.x
+2. Selenium
+
 ## How to use it?
 Head to the static folder and change lines:
 
