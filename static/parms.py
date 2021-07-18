@@ -4,10 +4,14 @@ from selenium import webdriver
 mail = ''
 pwd= ''
 profile_name=''
-URL_Mobile_FList=''
+cookie = {'name':'',
+'value': '',
+'domain': 'facebook.com'
+}
+
 #EDIT THIS PARMS
 
-
+URL_Mobile_FList='https://m.facebook.com/friends/center/friends/?mff_nav=1'
 friend_downloaded= list()
 friend_saved = dict()
 URL_Mobile_Face = 'https://m.facebook.com/login.php?next=https%3A%2F%2Fm.facebook.com%2Fhome.php%3Frefsrc%3Dhttp%253A%252F%252Fwww.google.com%252F&refsrc=http%3A%2F%2Fwww.google.com%2F&_rdr'
@@ -20,10 +24,7 @@ URL_Face_FList= 'https://www.facebook.com/'+ profile_name +'/friends'
 
 cookie_popup_class = "_9fwi"
 accept_all = 'data-cookiebanner="accept_button"'
-cookie = {'name':'datr',
-'value': 'bdp8X1owLj1czsrxaWd2JP5e',
-'domain': 'facebook.com'
-}
+
 
 friend_slector='//*[@id="root"]/div/div/div[3]/div[1]/div[2]/div/div[1]/h3'
 friend_slector_fix='//*[@id="root"]/div/div/div/div'
