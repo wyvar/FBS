@@ -17,5 +17,11 @@ cookie={you can do it  by using f12 after login in normal facebook and copy it h
 
 ```
 
+in bash run
+
+```bash
+python main.py
+```
+
 Then the program should run and open the selenium page. In colleceted_data folder you will find created files with active hours.
 Don't close selenium window.
