@@ -1,9 +1,11 @@
 # FBS (facebook stalky) [BROKEN]
-The program that you see here is an old bet between me andmy friend.
-The idea was to creat the Stalk bot for facebook to observer their activity icon. BUT in new version in facebook it's impossible to do so. Why? 
+The program that you see here is an old bet between me and my friend.
+The idea was to creat the Stalk bot for facebook to observer their activity icon. In version in facebook it's impossible to do so. Why? 
 Facbook changed API to graph api +incoming values are hidden or have inconsistant claes.
 
-That's why it uses old mobile version of the site, and utilize category "Active friends". Why not the right bar of the site? The problem is this "activebar" is limited to 20-25 people active + group. Even more - updates are irregular and might be off by 1-2 mins. 
+That's why it uses old mobile version of the site, and utilize category "Active friends". 
+Why not the right bar of the site? 
+The problem is this "activebar" is limited to 20-25 people active + group. Even more - updates are irregular and might be off by 1-2 mins. 
 
 # Requirements
 1. Python 3.x
